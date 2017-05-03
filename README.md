@@ -82,5 +82,5 @@ nvm use v6.0.0
 ```
 ## install geckodriver
 ```
-$ npm install geckodriver
+$ gem install geckodriver-helper
 ```
