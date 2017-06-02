@@ -9,13 +9,13 @@ describe "google.co.uk",  :type => :feature do
       @goole_search_page = GoogleSearch.new
 		  @goole_search_page.load
       page.driver.browser.manage.window.resize_to(1440,900) #Mention it here
-      visit "/"
+      # visit "/"
 
     end
 
     it "contains a search button" do
      @goole_search_page.search_for('capybara')
-     sleep(10)
+     sleep(5)
     end
 
 
